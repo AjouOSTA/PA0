@@ -16,7 +16,7 @@ Mr. Ko는 빡센 과목을 먼저 끝내버리고 유학 준비를 하기 위해
 
 입력은 아주대학교 요람과 에브리타임 강의평가 두 가지로 나뉜다. 두 파일은 csv 형태로 존재한다.
 
-- 아주대학교 요람(*database.csv*)의 예시
+- 아주대학교 요람(*in/database.csv*)의 예시
 
 요람은 한 줄에 한 과목으로 구성되며, 각 줄은  `과목 명, 선수 과목의 수, [선수 과목 0, 선수 과목 1, 선수 과목 2, ...]` 과 같은 포맷으로 구성된다.
 
@@ -27,7 +27,7 @@ Mr. Ko는 빡센 과목을 먼저 끝내버리고 유학 준비를 하기 위해
     Computer Architecture, 2, Digital Systems, Data Structures
     Operating Systems, 1, Computer Architecture
 
-- 에브리타임 강의평가(*everytime{i}.csv*)
+- 에브리타임 강의평가(*in/everytime{i}.csv*)
 
 에브리타임 강의평가 역시 한 줄에 한 과목으로 구성되며, 각 줄은 `과목 명, 난이도` 로 구성된다.
 
@@ -52,6 +52,8 @@ Mr. Ko는 빡센 과목을 먼저 끝내버리고 유학 준비를 하기 위해
 위의 입력 예에 따르면, 출력은 아래와 같이 나와야 한다.
 
     Digital Systems, Computer Programming, Discrete Mathematics, Data Structures, Computer Architecture, Operating Systems.
+
+예시 출력은 *out/* 디렉토리에 있으니 참고.
 
 ## Hint
 
@@ -83,6 +85,7 @@ Mr. Ko는 빡센 과목을 먼저 끝내버리고 유학 준비를 하기 위해
 
 - `make` : 컴파일
 - `make run` : 실행
+- `make test` : 자가 채점 (이 기준으로 점수 매김)
 
 ---
 
