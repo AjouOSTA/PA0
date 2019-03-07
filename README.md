@@ -55,7 +55,8 @@ Mr. Ko는 빡센 과목을 먼저 끝내버리고 유학 준비를 하기 위해
 
 예시 출력은 *out/* 디렉토리에 있으니 참고.
 
-## Hint
+## References
 
 [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)
-
+[과제 시작하기](https://github.com/AjouOSTA/PA0/blob/master/GETTING_STARTED.md)
+[리포트 가이드](https://github.com/AjouOSTA/PA0/blob/master/REPORT-GUIDE.md)
