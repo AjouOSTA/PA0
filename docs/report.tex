@@ -1,11 +1,42 @@
-\documentclass{report}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{kotex}
+
+\title{PA0: 수강 계획 짜기}
+\author{최재원, 201120848}
+\date{March 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
 
 \begin{document}
 
-Hello, World!
+\maketitle
 
-Or
+\section{내가 한 것들}
 
-안녕, 세계!
+\begin{itemize}
+    \item 블라블라
+    \item 울라울라
+\end{itemize}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.7]{universe}
+\caption{The Universe. 딱히 과제랑은 상관 없지만 이쁨.}
+\label{fig:universe}
+\end{figure}
+
+\section{배운 것들}
+
+\begin{itemize}
+    \item 이런거 저런거 배움
+    \item 이것도 저것도 배움
+\end{itemize}
+
+\section{피드백}
+``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+
+\bibliographystyle{plain}
+\bibliography{references}
 \end{document}
