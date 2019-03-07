@@ -24,11 +24,29 @@
 
 ## Latex
 
+### Installation
+
+```sh
+sudo apt install texlive-full
+```
+
+### Usages
+
 ```sh
 make latex
 ```
 
 ## Markdown
+
+### Installation
+
+```sh
+sudo apt update
+sudo apt install npm
+npm install mdpdf -g
+```
+
+### Usages
 
 ```sh
 make md
