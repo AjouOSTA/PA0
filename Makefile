@@ -11,7 +11,12 @@ run:
 	./$(EXEC) ./in/everytime2.csv
 
 test:
-	echo "WIP"
+	./$(EXEC) ./in/everytime0.csv > myout0.txt
+	./$(EXEC) ./in/everytime1.csv > myout1.txt
+	./$(EXEC) ./in/everytime2.csv > myout2.txt
+	cmp myout0.txt ./out/sample0.txt
+	cmp myout1.txt ./out/sample1.txt
+	cmp myout2.txt ./out/sample2.txt
 
 latex:
 	pdflatex ./docs/report.tex
