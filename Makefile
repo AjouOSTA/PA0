@@ -6,7 +6,12 @@ all:
 	$(CC) -o $(EXEC) $(SRC)
 
 run:
-	./$(EXEC)
+	./$(EXEC) ./in/everytime0.csv
+	./$(EXEC) ./in/everytime1.csv
+	./$(EXEC) ./in/everytime2.csv
+
+test:
+	echo "WIP"
 
 latex:
 	pdflatex ./docs/report.tex
