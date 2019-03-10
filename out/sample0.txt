@@ -1,6 +1,6 @@
 Computer Programming
-Discrete Mathematics
 Digital Systems
+Discrete Mathematics
 Data Structures
 Computer Architecture
 Operating Systems
